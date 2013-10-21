@@ -56,7 +56,6 @@ Tier:          Legacy
 Web URL:       http://fathomless-meadow-6284.herokuapp.com/
 
 
-
 Este es el resultado, donde vemos cual es la URL donde podemos encontrar la aplicación.
 
 <b><h3>GPL v2</h3></b> 
