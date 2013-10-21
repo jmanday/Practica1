@@ -21,6 +21,10 @@ Para crear mi aplicación he realizado unos sencillos pasos:
 * **Añadir aplicación en OpenShift:** desde la página de OpenShitf nos creamos nuestra aplicación (add application), buscamos el tipo de aplicacion,en mi caso php5.3,
 lo último sería darle un nombre (navegadorV1 en mi caso).
 
+Otra opción es realizarlo desde rhc. Para ello previamente el paquete rhc tiene que estar instalado y configurado. Con la 
+siguiente orden **rhc app create navegadorV1 php-5.3** situándonos dentro de la carpeta del repositorio local en nuestra máquina, tendríamos la apliación creada
+y continuaríamos con los mismos pasos.
+
 <b><h3>GPL v2</h3></b> 
 En mi práctica no hago alusión a ningún tipo de imagen, ni icono, ni nada por el estilo, por lo que con la licencia GPL v2 me cubre 
 mis necesidades.
