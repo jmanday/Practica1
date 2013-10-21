@@ -39,3 +39,8 @@ como se mencionó en el párrafo anterior. Mediante los comandos:
 
 <b><h3>Visualizar Aplicacion</h3></b>
 http://navegadorv1-p1iv.rhcloud.com/
+
+
+<b><h3>Bibliografía</h3></b>
+* https://www.openshift.com/developers/rhc-client-tools-install
+* http://www.php.net/manual/es/
