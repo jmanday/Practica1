@@ -38,20 +38,30 @@ Para saber cual es la nuestra escribimos en el terminal:
   * heroku apps:info
 
 === fathomless-meadow-6284
+
 Git URL:       git@heroku.com:fathomless-meadow-6284.git
+
 Owner Email:   jmanday@gmail.com
+
 Region:        us
+
 Repo Size:     104k
+
 Slug Size:     22M
+
 Stack:         cedar
+
 Tier:          Legacy
+
 Web URL:       http://fathomless-meadow-6284.herokuapp.com/
+
+
 
 Este es el resultado, donde vemos cual es la URL donde podemos encontrar la aplicación.
 
 <b><h3>GPL v2</h3></b> 
-En mi práctica no hago alusión a ningún tipo de imagen, ni icono, ni nada por el estilo, por lo que con la licencia GPL v2 me cubre 
-mis necesidades.
+En mi práctica no hago alusión a ningún tipo de imagen, ni icono, ni nada por el estilo. Después de comparar GPLv2 y GPLv3, he optado
+por la primera debido a las desventajas que presenta GPLv3 frente a GPLv2, la cuales podemos consultar http://arukard.wordpress.com/2008/07/30/desventajas-de-la-gpl-v3-y-porque-la-gpl-v2-es-mejor/
 
 <b><h3>Copia local</h3></b> 
 Cuando se creó el repositorio en github lo clonamos a la máquina local, dentro del directorio de la misma es donde se encuentra la aplicación, es decir,
