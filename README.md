@@ -14,12 +14,19 @@ que tipo de navegador es (Firefox, Chrome, Internet Explorer, etc), la versión 
 Una ayuda que para cuando tengamos problemas por incompatibilidad de nuestro navegador nos podría venir bien para conocer mejor
 problema y subsanarlo.
 
-<b><h3>OpenShift</h3></b> 
-He escogido este PaaS porque es el que mejor se adapta a mis necesidades, una plataforma libre, escalable y muy fácil de usar.
+<b><h3>Heroku</h3></b> 
+He escogido este PaaS porque es el que mejor se adapta a mis necesidades, una plataforma libre, escalable y muy fácil de usar. En un primer momento pensé en utilizar
+OpenShift, pero no fue posible debido a que había problemas con el intérprete de php y no me reconocía bien las clases y funciones realizadas para mi aplicación.
 Para crear mi aplicación he realizado unos sencillos pasos:
-* **Crear cuenta en OpenShift:** antes que nada me he registrado en OpenShift, para poder crear mi aplicación posteriormente.
-* **Añadir aplicación en OpenShift:** desde la página de OpenShitf nos creamos nuestra aplicación (add application), buscamos el tipo de aplicacion,en mi caso php5.3,
-lo último sería darle un nombre (navegadorV1 en mi caso).
+* **Crear una cuenta en Heroku** 
+* **Intalar Toolbelt:** 
+* **Creamos el directorio donde pondremos el código de nuestra aplicación y nos situamos en el**
+* * mkdir aplicacion
+* * cd aplicacion
+* **Creamos el repositorio git y agregamos el código que hemos creado a él**
+* * git init
+* * git add .
+* * git commit -m "aplicacion navegador"
 
 Otra opción es realizarlo desde rhc. Para ello previamente el paquete rhc tiene que estar instalado y configurado. Con la 
 siguiente orden **rhc app create navegadorV1 php-5.3** situándonos dentro de la carpeta del repositorio local en nuestra máquina, tendríamos la apliación creada
@@ -42,7 +49,7 @@ como se mencionó en el párrafo anterior. Mediante los comandos:
 * git push
 
 <b><h3>Visualizar Aplicacion</h3></b>
-http://navegadorv1-p1iv.rhcloud.com/
+http://fathomless-meadow-6284.herokuapp.com/
 
 
 <b><h3>Bibliografía</h3></b>
