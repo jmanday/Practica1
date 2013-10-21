@@ -21,16 +21,33 @@ Para crear mi aplicación he realizado unos sencillos pasos:
 * **Crear una cuenta en Heroku** 
 * **Intalar Toolbelt:** 
 * **Creamos el directorio donde pondremos el código de nuestra aplicación y nos situamos en el**
-* * mkdir aplicacion
-* * cd aplicacion
+  * mkdir aplicacion
+  * cd aplicacion
 * **Creamos el repositorio git y agregamos el código que hemos creado a él**
-* * git init
-* * git add .
-* * git commit -m "aplicacion navegador"
+  * git init
+  * git add .
+  * git commit -m "aplicacion navegador"
+* **Ahora creamos nuestra aplicación en Heroku**
+  * heroku create
+* **Por último subimos nuestra aplicación a Heroku**
+  * git push heroku master
 
-Otra opción es realizarlo desde rhc. Para ello previamente el paquete rhc tiene que estar instalado y configurado. Con la 
-siguiente orden **rhc app create navegadorV1 php-5.3** situándonos dentro de la carpeta del repositorio local en nuestra máquina, tendríamos la apliación creada
-y continuaríamos con los mismos pasos.
+Ya tenemos nuestra aplicación funcionando perfectamente, solo falta probarlo, pero para ello necesitamos la URL de Heroku, que por
+lo general son todas muy parecidas.
+Para saber cual es la nuestra escribimos en el terminal:
+  * heroku apps:info
+
+=== fathomless-meadow-6284
+Git URL:       git@heroku.com:fathomless-meadow-6284.git
+Owner Email:   jmanday@gmail.com
+Region:        us
+Repo Size:     104k
+Slug Size:     22M
+Stack:         cedar
+Tier:          Legacy
+Web URL:       http://fathomless-meadow-6284.herokuapp.com/
+
+Este es el resultado, donde vemos cual es la URL donde podemos encontrar la aplicación.
 
 <b><h3>GPL v2</h3></b> 
 En mi práctica no hago alusión a ningún tipo de imagen, ni icono, ni nada por el estilo, por lo que con la licencia GPL v2 me cubre 
