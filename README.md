@@ -55,7 +55,7 @@ Tier:          Legacy
 
 Web URL:       http://fathomless-meadow-6284.herokuapp.com/
 
-<img src="https://github.com/jmanday/Imagenes/blob/master/Selecci%C3%B3n_234.png"></img>
+![imagen1](https://github.com/jmanday/Imagenes/blob/master/Selecci%C3%B3n_234.png?raw=true)
 
 Este es el resultado, donde vemos cual es la URL donde podemos encontrar la aplicación.
 
